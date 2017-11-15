@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style>
+    html, body {
+      height: 100%;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      background-color: black;
+      color: red;
+    }
+
+    canvas { 
+      width: 100%;
+      border: 1px solid grey;
+    }
+
+    .controls {
+      position: absolute;
+      background-color: rgba(0,0,0,0);
+      top: 0;
+      right: 0;
+      width: 100px;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="controls">
+    <button id="tickButton">TICK</button>
+    <div id="timeDisplay"></div>
+    <div id="renderCountDisplay"></div>
+    <div id="fpsDisplay"></div>
+
+  </div>
+  <script src="bundle.js"></script>
+</body>
+
+</html>
